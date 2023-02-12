@@ -1,20 +1,39 @@
-# note_taker
-This is an application to write, save, and delete notes, using an express backend and a JSON file as a database. 
+# Express note taking application
 
-<img width="855" alt="Screen Shot 2020-01-22 at 8 33 03 AM" src="https://user-images.githubusercontent.com/55324845/72903126-48d6a480-3cf2-11ea-9ae5-d151cf36beea.png">
+## Table of contents
+
+  * [Description](#Description)
+  * [Instillation](#Instillation)
+  * [Screenshots](#Screenshots)
+  * [Usage](#Usage)
+  * [Deployment](#Deployment)
+  * [License](#License)
+
+## Description
+As small business owner I want to be able to write and save notes so that I can organize my thoughts and keep track of tasks I need to complete. This back-end note taking application has been built using node.js with express. The application allows user to create, delete and manage notes in a database. 
 
 ## Instillation
-Fork and clone this repository to your local device using the SSH key and run an npm install in the terminal or CLI to intsall all node modules. Run 'node server.js' in the file server.js to host the website's server locally. 
+To run this application from a local server node.js must be installed: https://nodejs.org/en/download/ 
 
-## Hosting
-This app uses an express server to run on your local machine, and can also be deployed on the Heroku server https://fast-springs-35343.herokuapp.com/
+**The packages required are:**
 
-## Routing
-Users can visit the notes page by entering the route "/notes" , the api data by entering "/api/notes", or the home page by entering anything.
+ * **fs** 
+* **express @4.16.4** 
 
-## Coding
-The front-end of this app (HTML, CSS, Bootstrap and front-end Javascript) was provided by Trilogy.All server-side functionality (route-handling, HTTP requests, standing up the server) was done by me using node, Javascript, and express. 
-
-## Meta-Data
+## Usage
+To use this application all dependencies must be installed. To run the applciation run ``npm run start`` in the terminal.
 
 
+## Screenshots
+![](https://github.com/Charl1410/note-taking-application/blob/27b39e1b643154a62e21f850186342c2144c8618/screenshots/Screenshot%202023-01-24%20at%2016.40.38.png)
+![](https://github.com/Charl1410/note-taking-application/blob/27b39e1b643154a62e21f850186342c2144c8618/screenshots/Screenshot%202023-01-24%20at%2016.40.44.png)
+![](https://github.com/Charl1410/note-taking-application/blob/27b39e1b643154a62e21f850186342c2144c8618/screenshots/Screenshot%202023-01-24%20at%2016.41.18.png)
+
+
+## Deployment
+This application has been deployed through Heroku. To access please visit: <br>
+https://note-taker-express.herokuapp.com/notes
+
+
+## License 
+This project was not licensed.
