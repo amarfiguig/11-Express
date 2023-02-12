@@ -1,4 +1,4 @@
-# 11-Express note taking application
+# 11-Express Note-Taker
 
 ## Table of contents
 
