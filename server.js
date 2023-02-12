@@ -1,20 +1,25 @@
-var express = require("express");
+const express = require("express");
+const fs = require('fs');
+const path = require('path');
 
-// Tells node that we are creating an "express" server
-var app = express();
+// Importing express to set up the server
+const app = express();
 
-// Sets an initial port. We"ll use this later in our listener
-var PORT = process.env.PORT || 8080;
+// Setting the initial port for the server
+const PORT = process.env.PORT || 3001;
+const allNotes = require('./db/db.json');
 
-// Sets up the Express app to handle data parsing
+// Enabling Express to parse incoming data
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+// Importing API routes
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.static('public'));
+app.use('/api', apiRoutes);
 
-require("./routes/html_routes")(app);
-require("./routes/api_routes")(app);
-
-
-app.listen(PORT, function() {
-    console.log("App listening on PORT: " + PORT);
-  });
+// Listening on the specified port
+app.listen(PORT, () => {
+  console.log(`Server listening on PORT: ${PORT}`);
+});
