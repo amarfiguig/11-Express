@@ -10,18 +10,18 @@
   * [License](#License)
 
 ## Description
-As small business owner I want to be able to write and save notes so that I can organize my thoughts and keep track of tasks I need to complete. This back-end note taking application has been built using node.js with express. The application allows user to create, delete and manage notes in a database. 
+This back-end note-taking application is designed for small business owners who want to stay organized and keep track of tasks. Built using Node.js and Express, this application offers a simple and effective way to create, manage, and store notes. With this tool, you can easily write and save notes, ensuring you never forget important tasks or ideas. The notes are stored securely in a database, making it easy to retrieve and manage them whenever you need. Whether you're working from the office or on the go, this note-taking application is an essential tool for staying organized and on top of your tasks.
 
 ## Instillation
-To run this application from a local server node.js must be installed: https://nodejs.org/en/download/ 
+This application from a local server node.js
 
 **The packages required are:**
 
- * **fs** 
-* **express @4.16.4** 
+fs
+express @4.16.4
 
 ## Usage
-To use this application all dependencies must be installed. To run the applciation run ``npm run start`` in the terminal.
+To use this application, you must install the necessary dependencies by running npm install in the terminal. Once all dependencies are installed, you can start the application by running npm run start. The server will be up and running at http://localhost:PORT
 
 
 ## Screenshots
@@ -30,7 +30,7 @@ To use this application all dependencies must be installed. To run the applciati
 
 
 ## Deployment
-This application has been deployed through Heroku. To access please visit: <br>
+A.Amar <br>
 
 
 
