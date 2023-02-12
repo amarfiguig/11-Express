@@ -16,10 +16,5 @@ Users can visit the notes page by entering the route "/notes" , the api data by 
 The front-end of this app (HTML, CSS, Bootstrap and front-end Javascript) was provided by Trilogy.All server-side functionality (route-handling, HTTP requests, standing up the server) was done by me using node, Javascript, and express. 
 
 ## Meta-Data
-Alex Dollard: alexdollard141@gmail.com
-
-Heroku-hosted app: https://fast-springs-35343.herokuapp.com/
-
-GitHub repo: https://github.com/acdollard/note_taker
 
 
