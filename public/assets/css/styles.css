@@ -1,70 +1,81 @@
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+/* Set the background color for the entire page */
+body {
+  background-color: #F0F2F5;
 }
 
-.save-note {
-  display: none;
+/* Add some margin below the navbar */
+.navbar {
+  margin-bottom: 30px;
 }
 
-.icons i {
-  margin-left: 15px;
-  margin-right: 15px;
-  font-size: 1.5rem;
-  cursor: pointer;
+/* Style the jumbotron to have a white background, a box shadow, and padding */
+.jumbotron {
+  background-color: #FFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 50px 30px;
 }
 
-.note-textarea, .note-title {
-  color: #000000;
-  width: 100%;
-  outline: none;
+/* Set the color for the h1 and h4 headings in the jumbotron */
+.jumbotron h1,
+.jumbotron h4 {
+  color: #003C71;
+}
+
+/* Style the "Get Started" button in the jumbotron */
+.jumbotron .btn {
+  background-color: #F93C54;
+  border-color: #F93C54;
+}
+
+/* Style the "Get Started" button on hover */
+.jumbotron .btn:hover {
+  background-color: #EB1B38;
+  border-color: #EB1B38;
+}
+
+/* Custom styles for Note Taker app */
+
+/* Set the background color for the entire page */
+body {
+  background-color: #f7f7f7;
+}
+
+/* Add padding to the navbar */
+.navbar {
+  padding: 0 1rem;
+}
+
+/* Add some margin to the icons in the navbar */
+.icons {
+  margin-right: 1rem;
+}
+
+/* Set the height and add a scroll bar to the list container on the left */
+.list-container {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+/* Style the card that contains the list of notes */
+.card {
+  margin-top: 2rem;
+  margin-bottom: 0;
   border: none;
 }
 
-.note-textarea {
-  resize: none;
-  height: calc(100% - 63px);
-  padding-top: 15px;
-}
-
+/* Style the note title input field */
 .note-title {
-  height: 50px;
-  margin-top: 13px;
-  font-size: 3rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
 }
 
-.note-title:read-only, .note-textarea:read-only {
-  color: #757575;
+/* Style the note text area */
+.note-textarea {
+  height: 60vh;
+  margin-top: 1rem;
+  font-size: 1.2rem;
 }
 
-.list-container .card {
-  height: calc(100vh - 70px);
-  border-bottom: none;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.list-container {
-  padding-left: 0;
-}
-
-.list-container .list-group,
-.list-container .list-group-item:first-child,
-.list-container .card {
-  border-top: none;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-}
-
-.list-container i {
-  font-size: 1.1rem;
-  cursor: pointer;
-}
-
-.list-container .list-group-item {
-  border-left: none;
-  border-right: none;
-  padding: 20px;
-  cursor: pointer;
+/* Style the save button */
+.save-btn {
 }
