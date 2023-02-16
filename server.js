@@ -1,24 +1,28 @@
-const express = require("express");
-const fs = require('fs');
+const express = require('express');
 const path = require('path');
+const api = require('./routes/index.js');
 
-// Importing express to set up the server
+const PORT = 3001;
+
 const app = express();
 
-// Setting the initial port for the server
-const PORT = process.env.PORT || 3001;
-const allNotes = require('./db/db.json');
-
-// Enabling Express to parse incoming data
-app.use(express.urlencoded({ extended: true }));
+// Middleware for parsing JSON and urlencoded form data
 app.use(express.json());
-
-// Importing API routes
 app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
+app.use('/api', api);
+
 app.use(express.static('public'));
 
-// Listening on the specified port
-app.listen(PORT, () => {
-  console.log(`Server listening on PORT: ${PORT}`);
-});
+// GET Route for homepage
+app.get('/', (req, res) =>
+  res.sendFile(path.join(__dirname, '/public/index.html'))
+);
+
+// GET Route for feedback page
+app.get('/feedback', (req, res) =>
+  res.sendFile(path.join(__dirname, '/public/pages/feedback.html'))
+);
+
+app.listen(PORT, () =>
+  console.log(`App listening at http://localhost:${PORT} 🚀`)
+);
