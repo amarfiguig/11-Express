@@ -20,7 +20,7 @@ const promptUser = () => {
   inquirer.prompt({
     name: 'action',
     type: 'list',
-    message: 'What would you like to do?',
+    message: 'What do you want to do?',
     choices: [
       'View all departments',
       'View all roles',
