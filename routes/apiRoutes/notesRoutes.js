@@ -5,7 +5,7 @@ const uuid = require('../helpers/uuid');
 // GET Route for retrieving all the tips
 tips.get('/', (req, res) => {
   console.info(`${req.method} request received for tips`);
-  readFromFile('./db/tips.json').then((data) => res.json(JSON.parse(data)));
+  readFromFile('./db/db.jsonn').then((data) => res.json(JSON.parse(data)));
 });
 
 // POST Route for a new UX/UI tip
@@ -23,7 +23,7 @@ tips.post('/', (req, res) => {
       tip_id: uuid(),
     };
 
-    readAndAppend(newTip, './db/tips.json');
+    readAndAppend(newTip, './db/db.json');
     res.json(`Tip added successfully 🚀`);
   } else {
     res.error('Error in adding tip');
