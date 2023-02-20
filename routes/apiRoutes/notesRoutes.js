@@ -30,4 +30,4 @@ tips.post('/', (req, res) => {
   }
 });
 
-module.exports = notesRoutes;
+module.exports = tips;
