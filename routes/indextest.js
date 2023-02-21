@@ -129,3 +129,4 @@ const addRole = async () => {
       name: 'department_id',
       type: 'list',
       message: 'Which department does the new
+    },
