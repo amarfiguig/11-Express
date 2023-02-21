@@ -2,6 +2,9 @@
 const inquirer = require('inquirer');
 const mysql = require('mysql2/promise');
 const consoleTable = require('console.table');
+const inquirer = require('inquirer');
+const uuidv4 = require('uuidv4');
+const express = require('express');
 
 // Create connection to database
 const dbConnection = async () => {
