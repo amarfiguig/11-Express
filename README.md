@@ -50,6 +50,7 @@ After cloning the repo and installing the required npm packages, use the command
 
 ## Screenshot
 [Application Preview]()
+
 [Application Preview]()
 
 
