@@ -2,6 +2,12 @@
 
 Express Note-Taker is a web application built using the Express framework for Node.js that allows users to create, save, and delete notes. The application provides a simple and intuitive interface for users to manage their notes, and uses a back-end server to store and retrieve data from a JSON file.
 
+<p>
+  <img src="https://img.shields.io/badge/-JavaScript-yellow" />
+  <img src="https://img.shields.io/badge/-OOP-red" />
+  <img src="https://img.shields.io/badge/-JSON-blue" />
+</p>
+
 ## Table of contents
 
   * [Description](#Description)
