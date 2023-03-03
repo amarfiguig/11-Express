@@ -62,7 +62,7 @@ After cloning the repo and installing the required npm packages, use the command
 
 ## Deployment
 
-View the deployed page at [Heroku]()
+View the deployed page at [Heroku](https://express-note-taker-amarfiguig.herokuapp.com/)
 
 Contact Me:
 
