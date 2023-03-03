@@ -55,16 +55,16 @@ After cloning the repo and installing the required npm packages, use the command
 
 
 ## Screenshot
-[Application Preview](https://github.com/amarfiguig/11-Express-Note-Taker/blob/fa2c0522a922bbf3474a133b9036fd2a80fedce0/Assest/Sc2.png)
+[Picture 1](https://github.com/amarfiguig/11-Express-Note-Taker/blob/fa2c0522a922bbf3474a133b9036fd2a80fedce0/Assest/Sc2.png)
 
-[Application Preview](https://github.com/amarfiguig/11-Express-Note-Taker/blob/fa2c0522a922bbf3474a133b9036fd2a80fedce0/Assest/Sc3.png)
+[Picture 2](https://github.com/amarfiguig/11-Express-Note-Taker/blob/fa2c0522a922bbf3474a133b9036fd2a80fedce0/Assest/Sc3.png)
 
 
 ## Deployment
 
 View the deployed page at [Heroku](https://express-note-taker-amarfiguig.herokuapp.com/)
 
-Contact Me:
+### Contact Me
 
 Github: https://github.com/amarfiguig
 Email: myfiguig@gmail.com
